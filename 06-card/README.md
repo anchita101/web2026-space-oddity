@@ -2,8 +2,6 @@
 
 Build both the HTML and the CSS from scratch, to match `goal.png`.
 
-No starter code. This is a profile card, the shape of a component you will build constantly.
-
 Work in this order:
 
 1. Look at `goal.png` and mark the boxes. There is a header row with two sides (avatar and name on the left, a button on the right), and below it a row of three stats.
