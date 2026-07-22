@@ -1,6 +1,11 @@
 .featured {
   /* TODO: flex container, full viewport height, center the figure
      across and down */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
   min-height: 100vh;
   background: #ece7dd;
   padding: 2rem;
@@ -18,6 +23,11 @@
   /* TODO: flex row, even gap, thumbnails share the width */
   background: #ded7c9;
   padding: 1.5rem 2rem;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  gap: 15px;
+  width: 100%;
 }
 
 .thumbs figure {
@@ -30,8 +40,9 @@
 
 figure img {
   /* TODO: keep images inside their frames */
-  height: auto;
-  display: block;
+  height: 80%;
+  width: 100%;
+  object-fit: cover;
 }
 
 figcaption {
