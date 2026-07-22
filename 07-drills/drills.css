@@ -32,6 +32,9 @@
   border: 1px solid #e0e0e2;
   border-radius: 8px;
   background: #fff;
+  align-items: center;
+  display:flex;
+  justify-content: center;
 }
 .box {
   padding: 1.5rem 2rem;
