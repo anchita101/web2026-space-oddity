@@ -1,6 +1,8 @@
 .filters {
   display: flex;
-  flex-wrap: nowrap;
+  flex-flow: wrap;
+  align-items: flex-start;
+  gap: 1.5rem;
 }
 
 .chip {
