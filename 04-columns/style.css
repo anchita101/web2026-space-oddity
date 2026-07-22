@@ -2,7 +2,7 @@
   /* TODO: flex row with a gap */
   display: flex;
  place-content: center;
-  flex-direction: column;
+  flex-direction: row;
   gap: 1rem;
  
 }
@@ -10,6 +10,7 @@
 .feature {
   /* TODO: each column takes an equal share of the width */
   display: flex;
+  flex-direction: column;
   padding: 1.4rem;
   border: 1px solid #e0e0e2;
   border-radius: 10px;

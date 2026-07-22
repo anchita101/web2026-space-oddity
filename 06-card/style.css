@@ -32,6 +32,7 @@
   border: 1px solid #e0e0e2;
   border-radius: 10px;
   background: white;
+  max-width: 600px;
 }
 .name {
   font-weight: 600;

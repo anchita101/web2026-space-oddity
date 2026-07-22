@@ -44,3 +44,23 @@ body {
 .stage {
   padding: 2rem;
 }
+.universal.menu {
+display: flex;
+  justify-content: center;
+  flex-wrap:wrap;
+  gap: 1rem;
+  padding: 0.5rem 1rem;
+}
+.game {
+  color:#f4f4f5
+}
+.Assignment {
+  padding: 0.5rem 1rem;
+  background: #2563eb;
+  border-radius: 2rem;
+}
+.Assignment:hover {
+  transform: scale(1.1);
+  background: pink;
+}
+}
